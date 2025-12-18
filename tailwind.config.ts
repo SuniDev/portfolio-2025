@@ -6,11 +6,10 @@ const config: Config = {
       colors: {
         background: "#0a0a0a",
         foreground: "#e6e6e6",
-        "electric-blue": "#7df9ff",
+        'electric-blue': '#7df9ff'
       },
     },
   },
 };
 
 export default config;
-

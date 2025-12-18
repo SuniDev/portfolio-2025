@@ -3,9 +3,11 @@ export type Project = {
   title: string;
   description: string;
   techStack: string[];
-  imagePath: string;
+  imagePath?: string;
   githubLink: string;
-  appStoreLink: string;
+  appStoreLink?: string;
+  category: "Work" | "Side Project";
+  visualType: "screenshot" | "code" | "diagram";
 };
 
 export const projects: Project[] = [
@@ -15,9 +17,11 @@ export const projects: Project[] = [
     description:
       "A minimal note app with on-device sync, haptics, and rich text for quick capture.",
     techStack: ["SwiftUI", "Combine", "Core Data", "WidgetKit"],
-    imagePath: "/projects/aurora-notes.png",
+    imagePath: "/projects/default-project.png",
     githubLink: "https://github.com/",
     appStoreLink: "https://apps.apple.com/",
+    category: "Side Project",
+    visualType: "screenshot",
   },
   {
     id: "pulse-tracker",
@@ -25,9 +29,11 @@ export const projects: Project[] = [
     description:
       "Health insights with smooth charts, offline-first caching, and privacy-first analytics.",
     techStack: ["Swift", "HealthKit", "Charts", "CloudKit"],
-    imagePath: "/projects/pulse-tracker.png",
+    imagePath: "/projects/default-project.png",
     githubLink: "https://github.com/",
     appStoreLink: "https://apps.apple.com/",
+    category: "Work",
+    visualType: "screenshot",
   },
   {
     id: "waypoint",
@@ -35,9 +41,15 @@ export const projects: Project[] = [
     description:
       "Location-aware to-dos that trigger subtle notifications when you arrive at places.",
     techStack: ["SwiftUI", "MapKit", "Background Tasks", "Push Notifications"],
-    imagePath: "/projects/waypoint.png",
+    imagePath: "/projects/default-project.png",
     githubLink: "https://github.com/",
     appStoreLink: "https://apps.apple.com/",
+    category: "Side Project",
+    visualType: "screenshot",
   },
 ];
+
+
+
+
 

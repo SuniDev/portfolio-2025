@@ -6,7 +6,7 @@ export default function Hero() {
           Welcome
         </p>
         <h1 className="bg-gradient-to-r from-electric-blue via-white to-electric-blue bg-clip-text text-4xl font-semibold leading-tight text-transparent sm:text-5xl">
-          Hello, I&apos;m [Name].
+          Hello, I&apos;m Park Hyun Sun.
         </h1>
         <p className="text-lg text-foreground/80 sm:text-xl">
           iOS Engineer focused on User Experience
@@ -21,4 +21,8 @@ export default function Hero() {
     </section>
   );
 }
+
+
+
+
 

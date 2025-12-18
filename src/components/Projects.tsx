@@ -14,7 +14,7 @@ export default function Projects() {
           </h2>
         </div>
       </div>
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="grid gap-8 sm:grid-cols-2 lg:gap-10">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}
@@ -22,4 +22,8 @@ export default function Projects() {
     </section>
   );
 }
+
+
+
+
 
